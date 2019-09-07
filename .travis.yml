@@ -1,0 +1,11 @@
+os: osx
+language: bash
+
+before_install:
+  - brew install shellcheck
+
+script:
+  - shellcheck **/*.sh
+
+matrix:
+  fast_finish: true
