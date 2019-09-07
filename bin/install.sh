@@ -32,7 +32,7 @@ done
 echo "Updating da system"
 echo "============================================="
 
-./bin/system.sh
+bash ./bin/system.sh
 
 echo "                 Nicely done!"
 # ----------------------------------------------------------------------
@@ -43,7 +43,7 @@ echo "$(tput setaf 136)           Brewing da beer. "
 echo "=============================================$(tput sgr0)"
 "" # reset
 
-./bin/install-brew.sh
+bash ./bin/install-brew.sh
 
 echo "$(tput setaf 64)---------------------------------------------"
 echo "                 Nicely done $(tput sgr0)"
