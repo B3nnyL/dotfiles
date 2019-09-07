@@ -4,7 +4,7 @@ set e
 
 # symlink in home directory
 
-FILES = "aliases exports zshrc gitignore bin functions"
+FILES="aliases exports zshrc gitignore bin functions"
 
 # ----------------------------------------------------------------------
 # create symlinks from the homedir to any files in the dotfiles directory
