@@ -15,3 +15,4 @@ And, chill~
 
 - https://github.com/mathiasbynens/dotfiles
 - https://github.com/kremalicious/dotfiles
+- https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
