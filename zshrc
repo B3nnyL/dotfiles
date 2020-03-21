@@ -1,7 +1,4 @@
 
-autoload -U promptinit; promptinit
-prompt pure
-
 DISABLE_UPDATE_PROMPT="true"
 DISABLE_AUTO_TITLE="true"
 ENABLE_CORRECTION="true"
