@@ -23,7 +23,8 @@ brew install \
     rclone \
     rsync \
     shellcheck \
-    clamav
+    clamav \
+		neovim
 
 # install from 3rd party repo
 brew tap caskroom/caskroom

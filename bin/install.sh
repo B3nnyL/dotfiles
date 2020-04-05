@@ -58,6 +58,15 @@ fi;
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 npm i -g pure-prompt
 
+# setup neovim
+NEOVIM_FILE="$HOME/.config/nvim/init.vim"
+if [ -h $NEOVIM_FILE]; then
+				rm -rf $NEOVIM_FILE
+fi
+
+mkdir ~/.config/nvim
+ln -s "$PWD/init.vim" $NEOVIM_FILE
+
 # ----------------------------------------------------------------------
 # source what we just created
 # ----------------------------------------------------------------------
