@@ -24,7 +24,9 @@ brew install \
     rsync \
     shellcheck \
     clamav \
-		neovim
+		neovim \
+		fzf \
+		riprep
 
 # install from 3rd party repo
 brew tap caskroom/caskroom

@@ -28,7 +28,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'pangloss/vim-javascript',                { 'for': 'javascript' }
 Plug 'othree/html5.vim',                       { 'for': 'html' }
-
+Plug 'jremmen/vim-ripgrep'
 call plug#end()
 
 "theme
