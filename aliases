@@ -21,3 +21,5 @@ alias localup="python -m SimpleHTTPServer 8000"
 alias nv="nvim"
 
 alias nvconfig="nvim $HOME/.config/nvim/init.vim"
+
+alias cl="clear"

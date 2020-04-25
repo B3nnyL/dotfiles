@@ -1,3 +1,6 @@
+let mapleader = " "
+let g:mapleader = " "
+
 "ui
 set ruler
 set number
@@ -10,9 +13,24 @@ set textwidth=500
 set autoindent
 set smartindent
 set tabstop=2
+set shiftwidth=2
+set expandtab
+
+"search
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+set mouse=a
+
+" font
+set guifont=Fira\ Code\
 
 " keybinding
-
+nmap <leader>n :NERDTreeToggle<cr>
+nmap <leader>pi :PlugInstall<cr>
+nmap <leader>f :FZF<cr>
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
 
@@ -20,7 +38,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/seoul256.vim'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'scrooloose/nerdtree',                    { 'on':  'NERDTreeToggle' }
-" List ends here. Plugins become visible to Vim after this call.
+" List ends here. Plugins berome visible to Vim after this call.
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
@@ -33,9 +51,6 @@ call plug#end()
 
 "theme
 colo seoul256
-
-set mouse=a
-
 
 "nerdtree
 let g:NERDTreeMouseMode=3
