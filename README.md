@@ -1,6 +1,6 @@
 # Dotfiles
 
-My setup scripts and configuration files for OSX. 
+Homemade setup scripts for OSX. 
 
 ## How to
 
