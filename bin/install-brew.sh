@@ -23,6 +23,9 @@ brew cask install virtualbox
 brew cask install docker
 brew cask install iterm2
 brew cask install intellij-idea-ce
+# install fonts
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code
 
 # Remove outdated versions from the cellar.
 brew cleanup
