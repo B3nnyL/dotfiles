@@ -64,7 +64,7 @@ if [ -h $NEOVIM_FILE]; then
 				rm -rf $NEOVIM_FILE
 fi
 
-mkdir ~/.config/nvim
+mkdir -p ~/.config/nvim
 ln -s "$PWD/init.vim" $NEOVIM_FILE
 
 # ----------------------------------------------------------------------
