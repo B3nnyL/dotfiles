@@ -12,6 +12,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 source ~/.exports
 source ~/.aliases
+source ~/.funs
 
 autoload -U promptinit; promptinit
 prompt pure

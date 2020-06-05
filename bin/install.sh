@@ -44,7 +44,7 @@ echo "============================================="
 
 # symlink in home directory
 
-FILES="aliases exports zshrc gitignore bin functions"
+FILES="aliases exports zshrc gitignore bin funs"
 
 for FILE in $FILES; do
 

@@ -35,12 +35,14 @@ nmap <leader>f :FZF<cr>
 call plug#begin('~/.vim/plugged')
 
 " Declare the list of plugins.
-Plug 'junegunn/seoul256.vim'
+" Plug 'junegunn/seoul256.vim'
+Plug 'arcticicestudio/nord-vim'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'scrooloose/nerdtree',                    { 'on':  'NERDTreeToggle' }
 " List ends here. Plugins berome visible to Vim after this call.
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'itchyny/lightline.vim'
 
 " language
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -50,7 +52,7 @@ Plug 'jremmen/vim-ripgrep'
 call plug#end()
 
 "theme
-colo seoul256
+colo nord
 
 "nerdtree
 let g:NERDTreeMouseMode=3
